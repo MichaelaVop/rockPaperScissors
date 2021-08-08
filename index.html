@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misha's Rock Paper Scissors Variation</title>
+    <script src="https://kit.fontawesome.com/5d3ef17dbd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Misha's Rock Paper Scissors Variation</h1>
+        <h2>Enjoy!</h2>
+    </header>
+
+    <div class='scoreHolder'>
+        <div id='userLabel' class='labels'>USER</div>
+        <div id='compLabel' class='labels'>COMP</div>
+        <div class='score'>
+        <span id='userScore'>0</span>:<span id='compScore'>0</span>
+        </div>
+    </div>
+
+    <div class='result'>
+        <p>What will be your first move?</p>
+    </div>
+
+    <div class='selections'>
+        <button id='paper' class='selection'>
+            <i class="fas fa-hand-paper"></i>
+        </button>
+        <button id='rock' class='selection'>
+            <i class="fas fa-hand-rock"></i>
+        </button>
+        <button id='scissors' class='selection'>
+            <i class="fas fa-hand-scissors"></i>
+        </button>
+    </div>
+
+    <div id='gamesCount' class='numOfGames'>
+
+    </div>
+    
+    <script src='app.js' charset="utf-8"></script>
+</body>
+</html>

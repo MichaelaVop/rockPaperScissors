@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3C493F;
+}
+
+header {
+    background: #F0F7F4;
+    padding: 25px;
+}
+
+header > h1, h2 {
+    color: #121613;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.scoreHolder {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    border: 3px solid #F0F7F4;
+    border-radius: 4px;
+    width: 280px;
+    color: #F0F7F4;
+    font-size: 46px;
+    text-align: center;
+    padding: 15px 60px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.labels {
+    background-color: #fe5f55;
+    color: #F0F7F4;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+#userLabel {
+    position: absolute;
+    top: 5px;
+    left: -15px;
+}
+
+#compLabel {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F0F7F4;
+    margin: 0 15px;
+}
+
+.result > p {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #F0F7F4;
+}
+
+.selections {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.fas {
+    font-size: 40px;
+}
+.fas:active {
+    transition: 0.4s easy;
+}
+
+.selection {
+    font-size: 40px;
+    border: 3px solid #F0F7F4;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.selection:hover {
+    cursor: pointer;
+}
+
+.numOfGames > p {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #F0F7F4;
+}
+
+.win {
+    border: 4px solid #52CB91;
+    background-color: #52CB91;
+}
+
+.lose {
+    border: 4px solid #fe5f55;
+    background-color: #fe5f55;
+}
+
+.draw {
+    border: 4px solid #FBCA60;
+    background-color: #FBCA60;
+}
